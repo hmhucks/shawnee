@@ -21,23 +21,31 @@
 <tr><td>
 
 
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-">
-<input type="image" src="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=CE2fdIpqVqV4OZA2X5kR-Xl-tRGgY41itkJOyaTPFrd0GpBsQFVdutVQfP4&dispatch=5885d80a13c0db1f8e263663d3faee8d94717bd303200c3af9aadd01a5f55080" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<input type="hidden" name="hosted_button_id" value="S7ZP9FX7Y3K78">
+<table>
+<tr><td><input type="hidden" name="on0" value="Tribe">Tribe</td></tr><tr><td><select name="os0">
+	<option value="Shawnee Princesses">Shawnee Princesses </option>
+	<option value="Shawnee Braves">Shawnee Braves </option>
+	<option value="Nae Nae Braves">Nae Nae Braves </option>
+	<option value="Hatuey Princesses">Hatuey Princesses </option>
+</select> </td></tr>
+<tr><td><input type="hidden" name="on1" value="Attendee Name(once per person)">Attendee Name(once per person)</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+</table>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
 
 
 
+
 </font>
 </td>
-<td><img src="seabreeze.JPG"></td>
-
 </tr>
 </table>
+<img src="seabreeze.JPG"><p>
 <h2>See you there!</h2>
 
 Contact <a href=mailto:Bert@Hucks.net?Subject=Seabreeze%20Bowling>Bert@Hucks.net</a> with any changes or cancellations.
